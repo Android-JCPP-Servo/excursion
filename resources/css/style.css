@@ -31,9 +31,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 24px;
 }
 #explanation {
-    font-size: 21px;
+    font-size: 16px;
     color: gray;
-    padding: 0 10px;
+    padding: 0 12px;
 }
 @media only screen and (min-width: 768px) {
     #discover {
@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     #explanation {
         padding: 0;
+        font-size: 21px;
     }
 }
 

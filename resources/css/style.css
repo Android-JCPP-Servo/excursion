@@ -1,15 +1,55 @@
+/********************
+ * UNIVERSAL
+ ********************/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 25px auto;
+}
 html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     text-align: center;
 }
-
-#discover {
-    font-weight: normal;
-    font-size: 50px;
+video {
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+/********************
+ * IDS
+ ********************/
+#discover {
+    font-weight: normal;
+    font-size: 32px;
+    color: white;
+}
+#guide {
+    font-weight: 300;
+    font-size: 24px;
+}
+#explanation {
+    font-size: 21px;
+    color: gray;
+    padding: 0 10px;
+}
+@media only screen and (min-width: 768px) {
+    #discover {
+        font-size: 50px;
+    }
+    #guide {
+        font-size: 42px;
+    }
+    #explanation {
+        padding: 0;
+    }
+}
+
+/********************
+ * CLASSES
+ ********************/
 .download {
     color: aquamarine;
     font-size: 16px;

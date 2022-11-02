@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
     color: gray;
     padding: 0 12px;
 }
+#camp {
+    width: 100%;
+    height: auto;
+}
 #copyright {
     text-align: center;
     color: gray;
@@ -47,6 +51,10 @@ h1, h2, h3, h4, h5, h6 {
     #explanation {
         padding: 0;
         font-size: 21px;
+    }
+    #camp {
+        width: 896px;
+        height: 527px;
     }
     #copyright {
         text-align: right;

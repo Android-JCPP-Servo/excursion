@@ -26,14 +26,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 32px;
     color: white;
 }
-#guide {
-    font-weight: 300;
-    font-size: 24px;
-}
 #explanation {
     font-size: 16px;
     color: gray;
     padding: 0 12px;
+}
+#copyright {
+    text-align: center;
+    color: gray;
+    padding-right: 16px;
+    font-size: 24px;
 }
 @media only screen and (min-width: 768px) {
     #discover {
@@ -46,6 +48,9 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
         font-size: 21px;
     }
+    #copyright {
+        text-align: right;
+    }
 }
 
 /********************
@@ -54,4 +59,13 @@ h1, h2, h3, h4, h5, h6 {
 .download {
     color: aquamarine;
     font-size: 16px;
+}
+.header2 {
+    font-weight: 300;
+    font-size: 24px;
+}
+@media only screen and (min-width: 768px) {
+    .header2 {
+        font-size: 42px;
+    }
 }

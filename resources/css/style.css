@@ -1,0 +1,16 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+}
+
+#discover {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.download {
+    color: aquamarine;
+    font-size: 16px;
+}
